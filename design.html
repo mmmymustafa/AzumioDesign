@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="step-body step-one-body">STEP 1</div>
+    <div class="step-body step-two-body">STEP 2</div>
+    <div class="step-body step-three-body">STEP 3</div>
+    <div class="step-body step-four-body">STEP 4</div>
+    <div class="step-body step-five-body">
+        <div class="headers-container">
+            <h2 class="header">What are your main areas of focus?</h2>
+            <h3 class="subheader">This will help us build a personalized experience for you</h3>
+        </div>
+        <div class="areas-container">
+            <div id="opt1" class="area-option" onclick="selectedArea('opt1')">Blood Glucose</div>
+            <div id="opt2" class="area-option" onclick="selectedArea('opt2')">Medication</div>
+            <div id="opt3" class="area-option" onclick="selectedArea('opt3')">Food Tracking</div>
+            <div id="opt4" class="area-option" onclick="selectedArea('opt4')">Exercise</div>
+            <div id="opt5" class="area-option" onclick="selectedArea('opt5')">Weight Management</div>
+            <div id="opt6" class="area-option" onclick="selectedArea('opt6')">Blood Pressure</div>
+            <div id="opt7" class="area-option" onclick="selectedArea('opt7')">A1C</div>
+        </div>
+    </div>
+    <div class="navbar-container">
+        <div class="back-button" onclick="backStep()">BACK</div>
+        <div class="steps-container">
+            <div class="step step-one">•</div>
+            <div class="step step-two">•</div>
+            <div class="step step-three">•</div>
+            <div class="step step-four">•</div>
+            <div class="step step-five">•</div>
+        </div>
+        <div class="next-done-button" onclick="nextStep()">DONE</div>
+    </div>
+    <script src="./jscodes.js"></script>
+</body>
+</html>

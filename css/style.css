@@ -1,0 +1,101 @@
+.step-body{
+    height: 75%;
+    margin-top: 10%;
+}
+
+.step-one-body{
+    display: none;
+    font-size: 3rem;
+    color: rgb(58, 56, 97)
+}
+
+.step-two-body{
+    display: none;
+    font-size: 3rem;
+    color: rgb(58, 56, 97)
+}
+
+.step-three-body{
+    display: none;
+    font-size: 3rem;
+    color: rgb(58, 56, 97)
+}
+
+.step-four-body{
+    display: none;
+    font-size: 3rem;
+    color: rgb(58, 56, 97)
+}
+
+.headers-container{
+    color: rgb(58, 56, 97);
+}
+
+.header{
+    margin: 0rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.subheader{
+    margin: 1.2rem 0rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    font-size: 1.15rem;
+}
+
+.areas-container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.area-option{
+    border: solid 0.05rem;
+    border-radius: 0.25rem;
+    padding: 1rem 1.25rem;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0rem;
+    color: gray;
+    border-color: lightgray;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.steps-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.back-button{
+    color: darkgray;
+    font-weight: 300;
+}
+
+.step{
+    margin: 0rem 0.25rem;
+    color: lightgray;
+    font-size: 1.5rem;
+}
+
+.step-five{
+    font-size: 2.75rem;
+    color: rgb(57, 71, 153);
+}
+
+.next-done-button{
+    color: rgb(57, 71, 153);
+    font-weight: 700;
+}
